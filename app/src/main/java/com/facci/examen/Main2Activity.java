@@ -38,7 +38,7 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        String id = getIntent().getStringExtra("id");
+        String id = getIntent().getStringExtra("cedula");
         MateriasArrayList = new ArrayList<>();
         recyclerView = (RecyclerView)findViewById(R.id.RecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
